@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aasma-website/static/css/main.7c0750fc.css",
+    "main.css": "/aasma-website/static/css/main.e808d559.css",
     "main.js": "/aasma-website/static/js/main.c9760edb.js",
     "static/js/488.a06c6a14.chunk.js": "/aasma-website/static/js/488.a06c6a14.chunk.js",
     "service-worker.js": "/aasma-website/service-worker.js",
     "index.html": "/aasma-website/index.html",
-    "main.7c0750fc.css.map": "/aasma-website/static/css/main.7c0750fc.css.map",
+    "main.e808d559.css.map": "/aasma-website/static/css/main.e808d559.css.map",
     "main.c9760edb.js.map": "/aasma-website/static/js/main.c9760edb.js.map",
     "488.a06c6a14.chunk.js.map": "/aasma-website/static/js/488.a06c6a14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0750fc.css",
+    "static/css/main.e808d559.css",
     "static/js/main.c9760edb.js"
   ]
 }
