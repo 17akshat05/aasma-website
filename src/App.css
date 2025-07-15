@@ -162,16 +162,33 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.2s;
+  max-width: 90vw;
 }
 .gallery-item:hover {
   transform: scale(1.05) rotate(-2deg);
 }
 .gallery-item img {
   max-width: 220px;
+  width: 100%;
+  height: auto;
   max-height: 320px;
   border-radius: 16px;
   object-fit: cover;
   box-shadow: 0 2px 8px #ffb3c6aa;
+}
+@media (max-width: 700px) {
+  .gallery-grid {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .gallery-item img {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+  .gallery-item {
+    padding: 8px;
+  }
 }
 .gallery-caption {
   margin-top: 30px;

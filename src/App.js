@@ -41,13 +41,13 @@ function App() {
       <h2>Me & Aasma</h2>
       <div className="gallery-grid">
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/memory1.jpg'} alt="Memory 1" />
+          <img src={process.env.PUBLIC_URL + '/memory1.jpg'} alt="Aasma and friend in park" />
         </div>
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/memory2.jpg'} alt="Memory 2" />
+          <img src={process.env.PUBLIC_URL + '/memory2.jpg'} alt="Aasma and friend at night" />
         </div>
         <div className="gallery-item">
-          <img src={process.env.PUBLIC_URL + '/memory3.jpg'} alt="Memory 3" />
+          <img src={process.env.PUBLIC_URL + '/memory3.jpg'} alt="Aasma and friend smiling" />
         </div>
       </div>
       <div className="gallery-caption">Happy 5th Friendship Anniversary! 💖</div>
